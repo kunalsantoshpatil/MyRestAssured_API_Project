@@ -2,6 +2,8 @@
 <suite name="RestAssured Suite">
     <test name="Booking API Tests">
         <classes>
+            <class name="api_classes.TC_01_HealthCheck"/>
+            <class name="api_classes.TC_02_GetAll_Bookings"/>
             <class name="api_classes.TC_03_Create_Booking"/>
             <class name="api_classes.TC_04_Get_Perticular_booking"/>
             <class name="api_classes.TC_05_Update_Booking"/>
