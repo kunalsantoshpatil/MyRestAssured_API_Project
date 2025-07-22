@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssured Suite">
+    <test name="Booking API Tests">
+        <classes>
+            <class name="api_classes.TC_03_Create_Booking"/>
+            <class name="api_classes.TC_04_Get_Perticular_booking"/>
+            <class name="api_classes.TC_05_Update_Booking"/>
+            <class name="api_classes.TC_06_Partial_Update_Booking"/>
+            <class name="api_classes.TC_07_Delete_Booking"/>
+        </classes>
+    </test>
+</suite>

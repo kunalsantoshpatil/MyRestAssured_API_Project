@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssured Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Booking API Tests(failed)">
+    <classes>
+      <class name="api_classes.TC_07_Delete_Booking">
+        <methods>
+          <include name="deleteBookingTest"/>
+        </methods>
+      </class> <!-- api_classes.TC_07_Delete_Booking -->
+    </classes>
+  </test> <!-- Booking API Tests(failed) -->
+</suite> <!-- Failed suite [RestAssured Suite] -->
